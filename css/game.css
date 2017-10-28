@@ -1,9 +1,9 @@
-.background    { background: rgb(52, 166, 251);
+.background    { background: rgb(86, 186, 268);
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
-.lava          { background: rgb(255, 100, 100); }
-.wall          { background: white;   }
+.lava          { background: rgb(255, 50, 100); }
+.wall          { background: blue;   }
 
 .actor  { position: absolute;  }
 .coin   { background: rgb(241, 229, 89); }
@@ -11,8 +11,8 @@
 
 .game {
   overflow: hidden;
-  max-width: 600px;
-  max-height: 450px;
+  max-width: 500px;
+  max-height: 350px;
   position: relative;
 }
 
